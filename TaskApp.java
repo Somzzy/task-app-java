@@ -47,7 +47,7 @@ public class TaskApp extends JFrame {
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(deleteButton);
         buttonPanel.add(markCompletedButton);
-        buttonPanel.add(saveButton);  // Add the save button to the button panel
+        buttonPanel.add(saveButton);
 
         JPanel bottomPanel = new JPanel(new BorderLayout());
         bottomPanel.add(inputPanel, BorderLayout.NORTH);
@@ -58,7 +58,7 @@ public class TaskApp extends JFrame {
 
         pack();
         setLocationRelativeTo(null);
-        setSize(500, 300);  // Increased width to accommodate all buttons
+        setSize(500, 300);
     }
 
     private void addTask() {
